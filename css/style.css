@@ -23,14 +23,19 @@ body{
     border: none;
     padding: 21px 37px;
     cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
 }
 
 .primary-btn{
     background: #FF900E;
-    border-radius: 8px;
     color: #FFFFFF;
 }
 
+.primary-btn:hover{
+    background: #ff760e;
+    color: #FFFFFF;
+}
 
 
 
@@ -43,6 +48,8 @@ body{
     font-weight: 700;
     font-size: 30px;
     color: #131313;
+    cursor: pointer;
+    text-decoration: none;
 }
 .header__navbar{
     display: flex;
@@ -56,10 +63,24 @@ body{
     justify-content: flex-end;
 }
 .header__list-item{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ff8f0e00;
+    transition: all 0.3s;
+}
+.header__list-item a{
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+    display: inline-block;
+    text-decoration: none;
 }
+
+.header__list-item:hover{
+    border-bottom: 2px solid #ff900e;
+}
+
+
+
 .header__list-item:not(:first-child){
     margin-left: 25px;
 }
@@ -225,16 +246,190 @@ body{
 
 
 /* Some Facts Section Start */
-.some-facts{}
-.some-facts__heading{}
-.some-facts__title{}
-.some-facts__description{}
+.some-facts{
+    padding: 30px 0;
+}
+.some-facts__heading{
+    width: 45%;
+    margin-bottom: 80px;
+}
+.some-facts__title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.some-facts__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
 .some-facts__facts{
     display: flex;
     justify-content: space-around;
 }
-.some-facts__fact{}
-.some-facts__icon{}
-.some-facts__number{}
-.some-facts__subtitle{}
+.some-facts__fact{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.some-facts__fact:hover{
+    transform: scale(1.1);
+    background-color: #FFF4E7;
+    border: 1px solid #f8dcb9;
+}
+
+.some-facts__icon{
+    height: 45px;
+    margin-bottom: 10px;
+}
+.some-facts__number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+.some-facts__subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
 /* Some Facts Section End */
+
+
+/* Sponsors Section Start */
+.sponsors{
+    padding: 120px 0;
+}
+
+.sponsors__heading{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.sponsors__title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.sponsors__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsors__logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsors__logo{
+    height: 40px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.sponsors__logo:hover{
+    filter: grayscale(0);
+}
+
+/* Sponsors Section End */
+
+/* Blog Section Start */
+.blogs {
+    padding-bottom: 120px;
+}
+.blogs__title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+    
+}
+
+
+
+.blogs__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.blogs__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 20px;
+}
+.blogs__blog{}
+.blogs__image{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 22px;
+}
+.blogs__subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.blogs__subtitle:hover {
+    color: #ff760e;
+}
+
+.blogs__summery{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.blogs__learn-more{
+    text-decoration: none;
+    font-weight: 500;
+    color: #131313;
+    margin-top: 15px;
+    display: block;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+.blogs__learn-more:hover{
+    color: #ff760e;
+}
+/* Blog Section End */
+
+
+
+/* Footer Start */
+.footer{
+    padding: 38px 0;
+    margin-bottom: 120px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+/* Footer End */
+
+
+/* Media Quary  */
