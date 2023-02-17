@@ -222,3 +222,19 @@ body{
     position: relative;
 }
 /* Feature-list Section End */
+
+
+/* Some Facts Section Start */
+.some-facts{}
+.some-facts__heading{}
+.some-facts__title{}
+.some-facts__description{}
+.some-facts__facts{
+    display: flex;
+    justify-content: space-around;
+}
+.some-facts__fact{}
+.some-facts__icon{}
+.some-facts__number{}
+.some-facts__subtitle{}
+/* Some Facts Section End */
