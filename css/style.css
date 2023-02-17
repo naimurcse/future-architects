@@ -95,3 +95,44 @@ body{
     display: block;
 }
 /* Header End */
+
+
+
+/* Feature Section Start */
+.feature{
+    padding: 100px 0;
+}
+.feature__content{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.feature__images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.feature__image{}
+.feature__details{}
+.feature__title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.feature__title-grey{
+    font-weight: 500;
+    color: #727272;
+}
+.feature__title-orange{
+    color: #FF900E;
+}
+.feature__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* Feature Section End */
