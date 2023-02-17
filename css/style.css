@@ -433,3 +433,114 @@ body{
 
 
 /* Media Quary  */
+
+@media screen and (max-width: 768px){
+
+    .header__navbar {
+        flex-direction: column;
+    }
+    .header__logo {
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    .header__details {
+        width: 80%;
+    }
+    .feature__content {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .feature__images {
+        grid-template-columns: 1fr;
+    }
+    .feature__image {
+        width: 100%;
+    }
+    .feature__details {
+        text-align: center;
+    }
+    .feature__title{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        font-size: 36px;
+    }
+    .feature-list__content {
+        display: flex;
+        flex-direction: column;
+        gap: 140px;
+    }
+    .feature-list__details {
+        width: 100%;
+    }
+    .feature-list__experience-content {
+        width: 100%;
+    }
+    .feature-list__experience {
+        bottom: -70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .feature-list {
+        padding: 80px 0 150px 0;
+        }
+    .some-facts__heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .some-facts__facts {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .some-facts__title{
+        font-size: 36px;
+    }
+    .sponsors__heading {
+        width: 80%;
+    }
+
+    .sponsors__logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .blogs__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 60px;
+    }
+    .blogs__title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .blogs__description{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .blogs__subtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .blogs__summery {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blogs__learn-more {
+        font-size: 20px;
+    }
+    .sponsors__title{
+        font-size: 36px;
+    }
+    .footer__text{
+        font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 22px;
+    }
+}
