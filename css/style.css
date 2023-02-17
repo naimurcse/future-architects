@@ -540,5 +540,18 @@ body{
         margin: 0 auto;
         line-height: 22px;
     }
+    .header__title {
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+    .header__details {
+        width: 90%;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 16px 28px;
+        border-radius: 6px;
+    }
 }
 /* Media queries end*/
