@@ -9,7 +9,8 @@ body{
 }
 
 .container{
-    padding: 0 200px;
+    /* padding: 0 200px; */
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -19,7 +20,7 @@ body{
 }
 .header__logo{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 30px;
     color: #131313;
 }
 .header__navbar{
@@ -35,7 +36,7 @@ body{
     justify-content: flex-end;
 }
 .header__list-item{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     color: #424242;
 }
@@ -45,5 +46,11 @@ body{
 
 .header__list-item:hover{
     cursor: pointer;
+}
+
+
+.header__banner-img{
+    width: 100%;
+    display: block;
 }
 /* Header End */
